@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pdfplumber
+langchain-text-splitters
+chromadb
+rank-bm25
+sentence-transformers>=4
+groq
+openai
+redis
+streamlit
+requests

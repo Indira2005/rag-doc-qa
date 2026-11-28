@@ -1,0 +1,13 @@
+{"question": "How many layers are in the Transformer encoder stack?", "pages": [2], "reference": "The encoder is a stack of 6 identical layers."}
+{"question": "What are the two sub-layers in each encoder layer?", "pages": [2, 3], "reference": "A multi-head self-attention mechanism and a position-wise fully connected feed-forward network."}
+{"question": "Why are the dot products scaled by the square root of d_k?", "pages": [4], "reference": "For large d_k the dot products grow large, pushing softmax into regions with extremely small gradients."}
+{"question": "How many attention heads does the model use?", "pages": [5], "reference": "8 parallel attention heads."}
+{"question": "What is the inner-layer dimensionality of the feed-forward network?", "pages": [5], "reference": "2048."}
+{"question": "How does the model use information about token order?", "pages": [5, 6], "reference": "Positional encodings based on sine and cosine functions are added to the input embeddings."}
+{"question": "Which optimizer was used for training?", "pages": [7], "reference": "The Adam optimizer."}
+{"question": "What hardware were the models trained on?", "pages": [7], "reference": "One machine with 8 NVIDIA P100 GPUs."}
+{"question": "What BLEU score did the model achieve on English-to-German translation?", "pages": [1, 8], "reference": "28.4 BLEU on WMT 2014 English-to-German."}
+{"question": "What is the capital of Australia?", "pages": [], "reference": ""}
+{"question": "What learning rate did BERT use for fine-tuning?", "pages": [], "reference": ""}
+{"question": "How much money did it cost to train the Transformer?", "pages": [], "reference": ""}
+{"question": "What accuracy did the Transformer get on ImageNet?", "pages": [], "reference": ""}

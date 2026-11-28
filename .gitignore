@@ -1,0 +1,9 @@
+Gitignore
+ · TXT
+.env
+.venv/
+data/
+__pycache__/
+*.pdf
+*.zip
+*.csv
